@@ -1,0 +1,32 @@
+@import url("../../style.css");
+@import url("https://grocery-mart-ecom.netlify.app/component-page/wishlist/wishlist.css");
+
+body{
+    background-color: var(--secondary-coolor);
+}
+.card-container-horizontal{
+    position: absolute;
+    top: 15rem;
+    left: 15rem;
+}
+.vertical-card-button{
+    color: var(--secondary-coolor);
+    background-color: var(--white);
+}
+.homepage-component{
+    display: flex;
+}
+.card-margin{
+    left: 40rem;
+    top: 12rem;
+}
+.card-content{
+    left: 65rem;
+    top: 15rem;
+}
+.cart-image{
+    height: 305px;
+}
+.vertical-card-button{
+    text-decoration: none;
+}

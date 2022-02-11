@@ -1,0 +1,39 @@
+@import url("../../style.css");
+@import url("https://grocery-mart-ecom.netlify.app/component-page/categories/category-page.css");
+
+body{
+    background-color: var(--secondary-coolor);
+}
+.card-container-horizontal{
+    position: absolute;
+    top: 5rem;
+    color: var(--secondary-coolor);
+    background-color: var(--white);
+}
+.product-heading,.fa-icon-category{
+    color: var(--secondary-coolor);
+}
+.cards-margin{
+    position: absolute;
+    top: 15rem;
+}
+.cards-margin-l{
+    position: absolute;
+    top: 25rem;
+}
+.category-management{
+    display: flex;
+    flex-flow: column wrap;
+}
+.cards-margin-xl{
+    position: absolute;
+    top: 34rem;
+}
+.quiz-homepage-heading{
+    top: 0rem;
+    left: 2rem;
+}
+.cards-margin-xxl{
+    position: absolute;
+    top: 43rem;
+}
