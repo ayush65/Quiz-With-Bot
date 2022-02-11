@@ -1,0 +1,35 @@
+@import url("https://angry-bird-ui.netlify.app/components/All-css-files/main.css");
+@import url("reset.css");
+@import url("./color-palette/color.css");
+
+
+body{
+    background-color: var(--secondary-color);
+}
+.quiz-homepage-heading{
+    color: var(--white);
+    font-size:  3rem;
+    position: absolute;
+    top: 4rem;
+    left: 40rem;
+}
+.homepage-link{
+    font-size:  1.5rem;
+    line-height: 2;
+    width: 20%;
+    background-color: var(--white);
+    color: var(--theme-color);
+    position: absolute;
+    top: 39rem;
+    left: 39rem;
+    text-decoration: none;
+    text-align: center;
+}
+.img-landing-page{
+    position: absolute;
+    top: 10rem;
+    left: 30rem;
+    width: 37.5rem;
+    height: 25rem;
+    border-radius: 25%;
+}
